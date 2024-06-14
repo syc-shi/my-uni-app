@@ -1,1 +1,1 @@
-<view><view class="my-bg"></view></view>
+<view><view class="my-bg"></view><image class="img" src="{{a}}" mode="widthFix"></image><view wx:for="{{b}}" wx:for-item="item" wx:key="c">{{item.a}} - {{item.b}}</view><view wx:for="{{c}}" wx:for-item="val" wx:key="d">{{val.a}} - {{val.b}} - {{val.c}}</view><block wx:for="{{d}}" wx:for-item="item" wx:key="c"><image class="icon-logo" src="{{e}}" mode="widthFix"></image><view>{{item.a}} - {{item.b}}</view></block></view>
